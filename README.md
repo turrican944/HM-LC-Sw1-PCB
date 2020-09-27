@@ -2,6 +2,11 @@
 ein nachbau der HM Schaltplatine HM-LC-Sw1-PCB mit einem Infineon ITS428I2 Highside Schalter (7A) anstelle eines Relais.
 ... und basiert auf der hervorragenden Arbeit von [pa-pa](https://github.com/pa-pa/AskSinPP), [Jérôme](https://github.com/jp112sdl/Beispiel_AskSinPP)
 
+Der Testaufbau, funktioniert soweit, die LED diente nur als Testlast ob alles funktioniert.
+![Testaufbau](https://raw.githubusercontent.com/turrican944/HM-LC-Sw1-PCB\img\1.jpg "Testaufbau")
+![ITS428I2](https://raw.githubusercontent.com/turrican944/HM-LC-Sw1-PCB\img\2.jpg "ITS428I2")
+
+eine Leiterplatte erstelle ich bei gelegenheit mal.
 
 [![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
