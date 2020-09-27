@@ -1,5 +1,6 @@
-# HM-LC-Sw1-PCB
-HM Schaltplatine mit Infineon ITS428I2 Highside Schalter 7A.
+# HM-LC-Sw1-PCB       [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
+ein nachbau der HM Schaltplatine HM-LC-Sw1-PCB mit einem Infineon ITS428I2 Highside Schalter (7A) anstelle eines Relais.
+... und basiert auf der hervorragenden Arbeit von [pa-pa](https://github.com/pa-pa/AskSinPP), [Jérôme](https://github.com/jp112sdl/Beispiel_AskSinPP)
 
 
 [![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
