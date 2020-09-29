@@ -2,9 +2,15 @@
 // AskSin++
 // 2016-10-31 papa Creative Commons - http://creativecommons.org/licenses/by-nc-sa/3.0/de/
 //- -----------------------------------------------------------------------------------------------------------------------
-
+// FS
 // define this to read the device id, serial and device type from bootloader section
 // #define USE_OTA_BOOTLOADER
+//#define NDEBUG
+
+//#define USE_AES
+//#define HM_DEF_KEY 0xA4,0xE3,0x75,0xC6,0xB0,0x9F,0xD1,0x85,0xF2,0x7C,0x4E,0x96,0xFC,0x27,0x3A,0xE4     //HM Defaultkey 
+//#define HM_DEF_KEY_INDEX 0
+
 
 #define EI_NOTEXTERNAL
 #include <EnableInterrupt.h>
