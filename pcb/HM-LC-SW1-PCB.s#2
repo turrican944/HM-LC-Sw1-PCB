@@ -1713,6 +1713,7 @@ Source: Source: www.infineon.com .. BTS428L2_20030912.pdf</description>
 <part name="C2" library="5becher elko" deviceset="10µ/50" device="" value="10µF"/>
 <part name="IC2" library="infineon" deviceset="BTS428L2" device="" value="ITS428L2"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
+<part name="OUT+" library="3PASSIVE" deviceset="LÖTPAD" device="" value="OUT"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="U$6" library="RAHMEN_FS" deviceset="DINA4Q" device=""/>
@@ -1725,7 +1726,6 @@ Source: Source: www.infineon.com .. BTS428L2_20030912.pdf</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="SJ2" library="jumper" deviceset="SJ" device=""/>
-<part name="OUT+" library="3PASSIVE" deviceset="PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1749,6 +1749,7 @@ Source: Source: www.infineon.com .. BTS428L2_20030912.pdf</description>
 <instance part="C2" gate="G$1" x="88.9" y="137.16" rot="R90"/>
 <instance part="IC2" gate="G$1" x="119.38" y="45.72"/>
 <instance part="P+3" gate="VCC" x="119.38" y="66.04"/>
+<instance part="OUT+" gate="G$1" x="144.78" y="45.72" rot="R180"/>
 <instance part="+3V1" gate="G$1" x="129.54" y="116.84" rot="R270"/>
 <instance part="+3V2" gate="G$1" x="154.94" y="116.84"/>
 <instance part="U$6" gate="G$1" x="0" y="0"/>
@@ -1761,7 +1762,6 @@ Source: Source: www.infineon.com .. BTS428L2_20030912.pdf</description>
 <instance part="GND4" gate="1" x="154.94" y="81.28"/>
 <instance part="GND5" gate="1" x="66.04" y="127"/>
 <instance part="SJ2" gate="1" x="129.54" y="58.42"/>
-<instance part="OUT+" gate="G$1" x="144.78" y="45.72" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -1862,12 +1862,7 @@ Source: Source: www.infineon.com .. BTS428L2_20030912.pdf</description>
 <segment>
 <pinref part="SJ1" gate="1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="200.66" y1="48.26" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="SO"/>
-<wire x1="200.66" y1="45.72" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="50.8" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
-<junction x="200.66" y="45.72"/>
+<wire x1="200.66" y1="48.26" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -1945,13 +1940,13 @@ Source: Source: www.infineon.com .. BTS428L2_20030912.pdf</description>
 <net name="OUT" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
+<pinref part="OUT+" gate="G$1" pin="1"/>
 <wire x1="127" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="1" pin="2"/>
 <wire x1="137.16" y1="45.72" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="58.42" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="58.42" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
 <junction x="137.16" y="45.72"/>
-<pinref part="OUT+" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
