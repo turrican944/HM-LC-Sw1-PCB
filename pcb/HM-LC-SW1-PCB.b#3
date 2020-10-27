@@ -1017,16 +1017,16 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="-19.05" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-19.05" y="43.18" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC3" library="linear" package="TO92" value="LP2950Z" x="-3.81" y="33.655"/>
+<element name="IC3" library="linear" package="TO92" value="LP2950Z" x="-24.13" y="58.42"/>
 <element name="LED1" library="LED" package="LED3MM" value="" x="-20.32" y="63.5"/>
 <element name="OUT+" library="3PASSIVE" package="PIN" value="PIN" x="-40.64" y="50.8"/>
 <element name="OUTGND" library="3PASSIVE" package="PIN" value="PIN" x="-31.75" y="50.8"/>
 <element name="R1" library="1WIDER" package="1/8W" value="330" x="-50.8" y="63.5"/>
 <element name="R2" library="1WIDER" package="1/8W" value="100k" x="-24.13" y="67.31"/>
 <element name="SJ1" library="jumper" package="SJ" value="" x="-39.37" y="57.15"/>
-<element name="SJ2" library="jumper" package="SJ" value="" x="-46.99" y="57.15"/>
-<element name="SJ3" library="jumper" package="SJ" value="" x="-45.085" y="22.225"/>
-<element name="SJ4" library="jumper" package="SJ" value="" x="-60.96" y="35.56" rot="R180"/>
+<element name="SJ2" library="jumper" package="SJ" value="" x="-44.45" y="57.15"/>
+<element name="SJ3" library="jumper" package="SJ" value="" x="-48.26" y="29.21"/>
+<element name="SJ4" library="jumper" package="SJ" value="" x="-54.61" y="57.15"/>
 <element name="T1" library="8TRANSIS" package="MTD3055E" value="MTD3055E" x="-25.4" y="49.53"/>
 <element name="U$1" library="arduinopromini" package="PRO_MINI_WO_RS_A6_A7" value="PRO_MINI_WO_RS_A6_A7" x="-22.86" y="16.51"/>
 </elements>
@@ -1081,11 +1081,11 @@ design rules under a new name.</description>
 <contactref element="SJ1" pad="1"/>
 <contactref element="T1" pad="SO"/>
 <contactref element="IC3" pad="2"/>
-<wire x1="-3.81" y1="35.56" x2="-21.59" y2="63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.32" y1="49.53" x2="-3.81" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.13" y1="60.325" x2="-21.59" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.32" y1="49.53" x2="-24.13" y2="60.325" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.33" y1="37.77" x2="-20.32" y2="49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.24" y1="27.94" x2="-21.33" y2="37.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-35.56" y1="57.15" x2="-3.81" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.56" y1="57.15" x2="-24.13" y2="60.325" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.132" y1="57.15" x2="-35.56" y2="57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.1" y1="63.5" x2="-40.132" y2="57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-39.1288" y1="43.9385" x2="-40.132" y2="57.15" width="0" layer="19" extent="1-1"/>
@@ -1124,18 +1124,18 @@ design rules under a new name.</description>
 <contactref element="SJ2" pad="2"/>
 <contactref element="OUT+" pad="1"/>
 <wire x1="-40.64" y1="50.8" x2="-16.77" y2="37.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.228" y1="57.15" x2="-40.64" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.688" y1="57.15" x2="-40.64" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="IC1" pad="VCC"/>
 <contactref element="IC1" pad="VCC2"/>
 <contactref element="SJ4" pad="2"/>
 <contactref element="IC3" pad="1"/>
-<contactref element="U$1" pad="VCC"/>
+<contactref element="U$1" pad="RAW"/>
 <wire x1="-53.61" y1="17.05" x2="-55.11" y2="17.05" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.722" y1="35.56" x2="-55.11" y2="17.05" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.24" y1="22.86" x2="-53.61" y2="17.05" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.08" y1="33.655" x2="-15.24" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.848" y1="57.15" x2="-53.61" y2="17.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.4" y1="58.42" x2="-53.848" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.24" y1="30.48" x2="-25.4" y2="58.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="IC1" pad="ANT"/>
@@ -1156,25 +1156,26 @@ design rules under a new name.</description>
 </signal>
 <signal name="VCC">
 <contactref element="SJ3" pad="2"/>
-<contactref element="U$1" pad="RAW"/>
-<wire x1="-15.24" y1="30.48" x2="-44.323" y2="22.225" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="VCC"/>
+<wire x1="-15.24" y1="22.86" x2="-47.498" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="V+">
-<contactref element="IC2" pad="TAB"/>
-<contactref element="SJ2" pad="1"/>
+<signal name="N$15">
 <contactref element="+VCC" pad="1"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="+"/>
 <contactref element="IC3" pad="3"/>
 <contactref element="SJ3" pad="1"/>
 <contactref element="SJ4" pad="1"/>
-<wire x1="-30.48" y1="63.5" x2="-2.54" y2="33.655" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.48" y1="63.5" x2="-22.86" y2="58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="-35.56" y1="59.69" x2="-30.48" y2="63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-47.752" y1="57.15" x2="-35.56" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.198" y1="35.56" x2="-47.752" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.05" y1="44.48" x2="-2.54" y2="33.655" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.45" y1="39.37" x2="-47.752" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.847" y1="22.225" x2="-44.45" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.372" y1="57.15" x2="-35.56" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.45" y1="39.37" x2="-55.372" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.022" y1="29.21" x2="-44.45" y2="39.37" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="V+">
+<contactref element="IC2" pad="TAB"/>
+<contactref element="SJ2" pad="1"/>
+<wire x1="-45.212" y1="57.15" x2="-19.05" y2="44.48" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
