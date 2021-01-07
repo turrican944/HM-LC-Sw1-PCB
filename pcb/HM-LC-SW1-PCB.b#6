@@ -92,10 +92,6 @@
 <hole x="3.81" y="3.81" drill="4"/>
 <rectangle x1="25.4" y1="26.035" x2="43.815" y2="50.8" layer="41"/>
 <rectangle x1="31.115" y1="11.43" x2="42.545" y2="24.13" layer="16"/>
-<text x="5.715" y="21.59" size="1.4" layer="26" ratio="15" rot="MR90">HM-LC-SW1-PCB
-(c) Florian Schoop
-V1.0 07.01.2021
-CC BY-NC-SA 4.0</text>
 </plain>
 <libraries>
 <library name="3PASSIVE">
@@ -1198,23 +1194,24 @@ design rules under a new name.</description>
 <wire x1="29.4" y1="29.575" x2="29.4" y2="28.075" width="0.4" layer="1"/>
 <contactref element="IC1" pad="GNDA1"/>
 <contactref element="IC1" pad="GNDA11"/>
-<polygon width="0.4" layer="1" isolate="0.4">
-<vertex x="0" y="59.69"/>
-<vertex x="45.085" y="59.69"/>
-<vertex x="45.085" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
-<polygon width="0.4" layer="16" isolate="0.4">
-<vertex x="0.635" y="59.69"/>
-<vertex x="45.085" y="59.69"/>
-<vertex x="45.085" y="0"/>
-<vertex x="0" y="0"/>
-<vertex x="0" y="59.69"/>
-</polygon>
 <contactref element="IC1" pad="GNDA21"/>
 <contactref element="IC1" pad="GNDA2"/>
 <wire x1="37.4" y1="47.075" x2="37.4" y2="48.575" width="0" layer="19" extent="1-1"/>
-<wire x1="33.4" y1="48.575" x2="33.4" y2="47.075" width="0" layer="19" extent="1-1"/>
+<wire x1="33.4" y1="48.575" x2="37.4" y2="48.575" width="0" layer="19" extent="1-1"/>
+<wire x1="33.4" y1="47.075" x2="33.4" y2="48.575" width="0" layer="19" extent="1-1"/>
+<wire x1="20.955" y1="55.88" x2="33.4" y2="48.575" width="0" layer="19" extent="1-1"/>
+<wire x1="9.525" y1="55.88" x2="20.955" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="44.45" x2="20.955" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="39.37" x2="17.78" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="29.4" y1="29.575" x2="33.4" y2="47.075" width="0" layer="19" extent="1-1"/>
+<wire x1="30.15" y1="20.06" x2="29.4" y2="28.075" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="15.24" x2="30.15" y2="20.06" width="0" layer="19" extent="1-1"/>
+<wire x1="18.415" y1="4.445" x2="15.24" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="27.305" y1="4.445" x2="18.415" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="34.925" y1="4.445" x2="27.305" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="9.525" y1="4.445" x2="18.415" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="2.1962" y1="9.4985" x2="9.525" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="2.1462" y1="15.9985" x2="2.1962" y2="9.4985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="LED1" pad="A"/>
@@ -1378,10 +1375,4 @@ design rules under a new name.</description>
 </signals>
 </board>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
