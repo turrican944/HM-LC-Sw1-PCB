@@ -4,5 +4,5 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
-.pcb/HM-LC-SW1-PCB.b\#*
-.pcb/HM-LC-SW1-PCB.s\#*
+\.pcb/HM-LC-SW1-PCB.b#*
+\.pcb/HM-LC-SW1-PCB.s#*
