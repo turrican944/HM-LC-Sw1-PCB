@@ -1888,7 +1888,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="210.82" y="104.14" size="1.778" layer="91">8,3mm Draht</text>
 <text x="226.06" y="7.62" size="1.778" layer="91">Florian Schoop, DG5HFS</text>
 <text x="7.62" y="7.62" size="2.54" layer="91">Homematic HM-LC-SW1-PCB mit Infineon highside Schalter ITS428L2</text>
-<text x="7.62" y="2.54" size="2.54" layer="91" ratio="10">Eingangspannung 5-35V (mit Sapnnungsregler), Ausgangsspannung gleich Eingangspannung</text>
+<text x="7.62" y="2.54" size="2.54" layer="91" ratio="10">Eingangspannung 5-15V, Ausgangsspannung gleich Eingangspannung max. 7A</text>
 <text x="83.82" y="144.78" size="2.54" layer="91" ratio="15">SJ4 geschlossen 3,3V Versorgungsspannung, Arduino LDO kann entfernt werdenm
 SJ3 geschlossen max 15V. Versorgungsspannung, LDO auf dem Arduino wird verwendet.
 SJ3 &amp; 4 offen LP2950 oder ähnlicher LDO stellt 3.3V zur verfügung, Arduino LDO kann entfernt werden.</text>
